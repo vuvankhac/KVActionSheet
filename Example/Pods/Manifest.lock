@@ -1,0 +1,16 @@
+PODS:
+  - KVActionSheet (0.1.0)
+
+DEPENDENCIES:
+  - KVActionSheet (from `../`)
+
+EXTERNAL SOURCES:
+  KVActionSheet:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KVActionSheet: c6598b3aae1907cee6d981695a6d099a21db123d
+
+PODFILE CHECKSUM: b9029fe0a9a1a81de7397ad3872134362f021074
+
+COCOAPODS: 1.1.1

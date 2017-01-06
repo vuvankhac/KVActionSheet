@@ -1,0 +1,6 @@
+framework module Pods_KVActionSheet_Tests {
+  umbrella header "Pods-KVActionSheet_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
