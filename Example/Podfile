@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KVActionSheet_Example' do
+  pod 'KVActionSheet', :path => '../'
+
+  target 'KVActionSheet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
