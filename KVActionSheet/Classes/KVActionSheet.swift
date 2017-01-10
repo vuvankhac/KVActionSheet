@@ -28,17 +28,17 @@ public class KVActionSheet: UIView {
         if let view = UIApplication.shared.windows.first {
             return view
         }
+        
         return UIView()
     }()
     
     public lazy var tableView: UITableView = {
         let tableView = UITableView()
-        self.contentView.addSubview(tableView)
-        
         tableView.bounces = false
         tableView.separatorStyle = .none
         tableView.delegate = self
         tableView.dataSource = self
+        self.contentView.addSubview(tableView)
         
         return tableView
     }()
@@ -52,21 +52,22 @@ public class KVActionSheet: UIView {
     
     fileprivate lazy var heightOfContentView: CGFloat = {
         let heightOfContentView = (self.dataSource as? KVActionSheetDataSource)?.actionSheetHeightOfContentView()
+        
         return heightOfContentView ?? 0
     }()
     
     fileprivate lazy var tapToHide: UITapGestureRecognizer = {
         let tapToHide = UITapGestureRecognizer(target: self, action: #selector(KVActionSheet.dismiss))
         tapToHide.delegate = self
+        
         return tapToHide
     }()
     
     public init(delegate: AnyObject?, dataSource: AnyObject?) {
         super.init(frame: UIScreen.main.bounds)
-        
+        self.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.delegate = delegate
         self.dataSource = dataSource
-        
         self.addGestureRecognizer(self.tapToHide)
     }
     
@@ -83,6 +84,7 @@ extension KVActionSheet: UIGestureRecognizerDelegate {
         let touchPoint = touch.location(in: self.tableView)
         return !(self.tableView.hitTest(touchPoint, with: nil) != nil)
     }
+    
 }
 
 extension KVActionSheet {
@@ -90,10 +92,10 @@ extension KVActionSheet {
     // MARK: - Layout Subviews
     open override func layoutSubviews() {
         self.frame = UIScreen.main.bounds
-        
         self.contentView.frame = CGRect(x: 0, y: UIScreen.main.bounds.size.height - self.heightOfContentView, width: UIScreen.main.bounds.size.width, height: self.heightOfContentView)
         self.tableView.frame = self.contentView.bounds
     }
+    
 }
 
 extension KVActionSheet: UITableViewDataSource {
