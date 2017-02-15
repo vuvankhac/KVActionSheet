@@ -24,6 +24,13 @@ pod 'KVActionSheet', '~> 1.1'
 ```
 
 ## Usage
+        
+```swift
+// MARK: - Initial
+let actionSheet = KVActionSheet(delegate: self, dataSource: self)
+actionSheet.show()
+```
+
 ```swift
 // MARK: - JLActionSheetDelegate
 func actionSheetTableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath) {
