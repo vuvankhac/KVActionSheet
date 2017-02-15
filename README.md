@@ -14,6 +14,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 * iOS 8.0+
 * Swift 3.0
 
+## Installation
+
+KVActionSheet is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'KVActionSheet', '~> 1.1'
+```
+
 ## Usage
 ```swift
 // MARK: - JLActionSheetDelegate
@@ -39,15 +48,6 @@ func actionSheetTableView(_ tableView: UITableView, heightForRowAtIndexPath inde
 func actionSheetHeightOfContentView() -> CGFloat {
     return 200
 }
-```
-
-## Installation
-
-KVActionSheet is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'KVActionSheet', '~> 1.1'
 ```
 
 ## Author
