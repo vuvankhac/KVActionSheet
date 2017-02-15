@@ -16,29 +16,29 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Usage
 ```swift
-    // MARK: - JLActionSheetDelegate
-    func actionSheetTableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath) {
-        
-    }
+// MARK: - JLActionSheetDelegate
+func actionSheetTableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath) {
+    
+}
 ```
 
 ```swift
-    // MARK: - JLActionSheetDataSource
-    func actionSheetTableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
-    }
+// MARK: - JLActionSheetDataSource
+func actionSheetTableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return 4
+}
     
-    func actionSheetTableView(_ tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
-    }
+func actionSheetTableView(_ tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell {
+    return UITableViewCell()
+}
     
-    func actionSheetTableView(_ tableView: UITableView, heightForRowAtIndexPath indexPath: IndexPath) -> CGFloat {
-        return 50
-    }
+func actionSheetTableView(_ tableView: UITableView, heightForRowAtIndexPath indexPath: IndexPath) -> CGFloat {
+    return 50
+}
     
-    func actionSheetHeightOfContentView() -> CGFloat {
-        return 200
-    }
+func actionSheetHeightOfContentView() -> CGFloat {
+    return 200
+}
 ```
 
 ## Installation
