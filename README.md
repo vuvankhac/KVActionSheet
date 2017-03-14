@@ -60,7 +60,7 @@ func actionSheetHeightOfContentView() -> CGFloat {
 ## Author
 
 Vu Van Khac, khacvv0451@gmail.com <br />
-My Facebook: https://www.facebook.com/khacvv0451  <br />
+My Facebook: https://www.facebook.com/vuvankhac.official  <br />
 My Twitter: https://twitter.com/vuvankhac  <br />
 
 ## License
