@@ -24,8 +24,8 @@ public class KVActionSheet: UIView {
     fileprivate weak var delegate: AnyObject?
     fileprivate weak var dataSource: AnyObject?
     
-    lazy var rootView: UIView = {
-        if let view = UIApplication.shared.windows.first {
+    lazy var keyView: UIView = {
+        if let view = UIApplication.shared.keyWindow {
             return view
         }
         
@@ -145,7 +145,7 @@ extension KVActionSheet {
     
     // MARK: - Public methods
     open func show() {
-        self.rootView.addSubview(self)
+        self.keyView.addSubview(self)
         self.backgroundColor = UIColor(white: 0, alpha: 0)
         UIView.animate(withDuration: 0.3, delay: 0, options: UIViewAnimationOptions(), animations: {
             self.backgroundColor = UIColor(white: 0, alpha: 0.5)
