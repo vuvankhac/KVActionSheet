@@ -155,7 +155,7 @@ extension KVActionSheet {
         })
     }
     
-    open func dismiss() {
+    @objc open func dismiss() {
         UIView.animate(withDuration: 0.3, animations: {
             self.backgroundColor = UIColor(white: 0, alpha: 0)
             self.contentView.frame = CGRect(x: 0, y: UIScreen.main.bounds.size.height, width: UIScreen.main.bounds.size.width, height: self.heightOfContentView)

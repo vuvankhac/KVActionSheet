@@ -31,32 +31,32 @@
 
 /* Begin PBXFileReference section */
 		16CFD4C38E824FCC1F90BC868742BA52 /* Pods-KVActionSheet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVActionSheet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		18A56C243D51E4C8C5BC147839412AEA /* KVActionSheet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KVActionSheet.modulemap; sourceTree = "<group>"; };
+		18A56C243D51E4C8C5BC147839412AEA /* KVActionSheet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KVActionSheet.modulemap; sourceTree = "<group>"; };
 		1AA9F611B5AFCA4F0F04141236AF9F8B /* Pods-KVActionSheet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVActionSheet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1AE23D078DD0FEAC88DA3ED1D551CEEC /* Pods-KVActionSheet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVActionSheet_Tests-umbrella.h"; sourceTree = "<group>"; };
 		230D7CA9874240EE61345E4C495EC98E /* Pods-KVActionSheet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVActionSheet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C0F6D0E504B469F0D9B62EA245DEC5E /* Pods-KVActionSheet_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVActionSheet_Tests-resources.sh"; sourceTree = "<group>"; };
 		2EB4507BF7C0DDD8D7B574524AA1D36E /* Pods-KVActionSheet_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVActionSheet_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		38D1F9DD38A878DEF28EDAAD3054815E /* Pods-KVActionSheet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVActionSheet_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3C0C292C5780F15A4B7C6D47E470E946 /* Pods-KVActionSheet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KVActionSheet_Tests.modulemap"; sourceTree = "<group>"; };
+		3C0C292C5780F15A4B7C6D47E470E946 /* Pods-KVActionSheet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KVActionSheet_Tests.modulemap"; sourceTree = "<group>"; };
 		4F0570ED1D31BCF49513AB45238A941B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		531ECEBB1F2C4BFDCB0345C410093898 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58D4B152F4FA4165E70B7F786D63C180 /* KVActionSheet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVActionSheet.xcconfig; sourceTree = "<group>"; };
-		60A15EC29139A6E549EEEFCFD7B963D5 /* Pods_KVActionSheet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KVActionSheet_Tests.framework; path = "Pods-KVActionSheet_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62C192B11ECBB2BB393FD17571829BDB /* Pods_KVActionSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KVActionSheet_Example.framework; path = "Pods-KVActionSheet_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A15EC29139A6E549EEEFCFD7B963D5 /* Pods_KVActionSheet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVActionSheet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C192B11ECBB2BB393FD17571829BDB /* Pods_KVActionSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVActionSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		657E4959156F86AE254FB43D46336013 /* Pods-KVActionSheet_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVActionSheet_Example-resources.sh"; sourceTree = "<group>"; };
 		6F27A45642F76B8E68A0C9B7DA803071 /* KVActionSheet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVActionSheet-umbrella.h"; sourceTree = "<group>"; };
 		6F456918A15E17BD9625510F64D4CE54 /* Pods-KVActionSheet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVActionSheet_Example-dummy.m"; sourceTree = "<group>"; };
 		876AB37BDFFD06B20772D2C3D124BBAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D483410851DE6A284CA595DD47D1550 /* Pods-KVActionSheet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KVActionSheet_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D483410851DE6A284CA595DD47D1550 /* Pods-KVActionSheet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KVActionSheet_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2DE726A9ECED50BF0F1606FA1BE6142 /* Pods-KVActionSheet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVActionSheet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A6FD1FAF9A93CCD751A15412EB77551B /* KVActionSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KVActionSheet.swift; sourceTree = "<group>"; };
 		BF83010DD06A7CA7E6D055B71256F01D /* Pods-KVActionSheet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVActionSheet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C37590EC847B5A301165E031DD955935 /* KVActionSheet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVActionSheet-prefix.pch"; sourceTree = "<group>"; };
 		CA5A89201919F01B14E59BBC90B46ED2 /* Pods-KVActionSheet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVActionSheet_Tests-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D3CF44304299F9FF8035C326675AE690 /* KVActionSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVActionSheet.framework; path = KVActionSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CF44304299F9FF8035C326675AE690 /* KVActionSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVActionSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9436035EE3DB2362F724A4F456CBBDC /* KVActionSheet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVActionSheet-dummy.m"; sourceTree = "<group>"; };
 		E07C1190B344A7F455B05C122F6C5CAA /* Pods-KVActionSheet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVActionSheet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E791AA973A3B182E5F2AAB1C6372465E /* Pods-KVActionSheet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVActionSheet_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -140,7 +140,6 @@
 			children = (
 				A6FD1FAF9A93CCD751A15412EB77551B /* KVActionSheet.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -149,7 +148,6 @@
 			children = (
 				A63D619383870C1543ED87E8C65479E8 /* Classes */,
 			);
-			name = KVActionSheet;
 			path = KVActionSheet;
 			sourceTree = "<group>";
 		};
@@ -313,7 +311,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					2B42354EF39622C34A1030C50A3A3113 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -468,7 +471,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -479,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FEB9CD68E5338BD978BF8DE3D3633918 /* Pods-KVActionSheet_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -519,19 +524,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -545,6 +560,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -554,6 +571,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E07C1190B344A7F455B05C122F6C5CAA /* Pods-KVActionSheet_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -595,20 +613,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -626,6 +654,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -655,7 +684,8 @@
 				PRODUCT_NAME = KVActionSheet;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
