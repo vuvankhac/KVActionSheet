@@ -3,7 +3,7 @@
 ## Requirements
 
 * iOS 8.0+
-* Swift 3.0
+* Swift 3.0 or later
 
 ## Installation
 
@@ -11,7 +11,7 @@ KVActionSheet is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KVActionSheet', '~> 1.3'
+pod 'KVActionSheet', '~> 1.4'
 ```
 
 ## Usage
@@ -23,14 +23,14 @@ actionSheet.show()
 ```
 
 ```swift
-// MARK: - JLActionSheetDelegate
+// MARK: - KVActionSheetDelegate
 func actionSheetTableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath) {
     
 }
 ```
 
 ```swift
-// MARK: - JLActionSheetDataSource
+// MARK: - KVActionSheetDataSource
 func actionSheetTableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return 4
 }

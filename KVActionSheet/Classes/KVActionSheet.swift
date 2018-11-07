@@ -57,7 +57,7 @@ public class KVActionSheet: UIView {
     }()
     
     fileprivate lazy var tapToHide: UITapGestureRecognizer = {
-        let tapToHide = UITapGestureRecognizer(target: self, action: #selector(KVActionSheet.dismiss))
+        let tapToHide = UITapGestureRecognizer(target: self, action: #selector(self.dismiss))
         tapToHide.delegate = self
         
         return tapToHide
@@ -74,7 +74,6 @@ public class KVActionSheet: UIView {
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }
 
 extension KVActionSheet: UIGestureRecognizerDelegate {
@@ -84,7 +83,6 @@ extension KVActionSheet: UIGestureRecognizerDelegate {
         let touchPoint = touch.location(in: self.tableView)
         return !(self.tableView.hitTest(touchPoint, with: nil) != nil)
     }
-    
 }
 
 extension KVActionSheet {
@@ -95,7 +93,6 @@ extension KVActionSheet {
         self.contentView.frame = CGRect(x: 0, y: UIScreen.main.bounds.size.height - self.heightOfContentView, width: UIScreen.main.bounds.size.width, height: self.heightOfContentView)
         self.tableView.frame = self.contentView.bounds
     }
-    
 }
 
 extension KVActionSheet: UITableViewDataSource {
@@ -135,7 +132,7 @@ extension KVActionSheet: UITableViewDelegate {
             return
         }
         
-        self.dismiss()
+        dismiss()
         delegate.actionSheetTableView(tableView, didSelectRowAtIndexPath: indexPath)
     }
     
@@ -147,7 +144,7 @@ extension KVActionSheet {
     open func show() {
         self.keyView.addSubview(self)
         self.backgroundColor = UIColor(white: 0, alpha: 0)
-        UIView.animate(withDuration: 0.3, delay: 0, options: UIViewAnimationOptions(), animations: {
+        UIView.animate(withDuration: 0.3, delay: 0, options: UIView.AnimationOptions(), animations: {
             self.backgroundColor = UIColor(white: 0, alpha: 0.5)
             self.contentView.transform = CGAffineTransform(translationX: 0, y: -self.heightOfContentView)
         }, completion: { (finished: Bool) in
@@ -163,5 +160,4 @@ extension KVActionSheet {
             self.removeFromSuperview()
         })
     }
-    
 }

@@ -13,20 +13,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
 extension ViewController {
     
     // MARK: - Actions
-    
     @IBAction func clickMeAction(_ sender: AnyObject) {
         let actionSheet = KVActionSheet(delegate: self, dataSource: self)
         actionSheet.tableView.register(UINib(nibName: KVActionSheetTableViewCell.nibName, bundle: nil), forCellReuseIdentifier: KVActionSheetTableViewCell.cellID)
@@ -37,7 +29,7 @@ extension ViewController {
 
 extension ViewController: KVActionSheetDelegate {
     
-    // MARK: - JLActionSheetDelegate
+    // MARK: - KVActionSheetDelegate
     func actionSheetTableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath) {
         
     }
@@ -45,7 +37,7 @@ extension ViewController: KVActionSheetDelegate {
 
 extension ViewController: KVActionSheetDataSource {
     
-    // MARK: - JLActionSheetDataSource
+    // MARK: - KVActionSheetDataSource
     func actionSheetTableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
@@ -68,6 +60,5 @@ extension ViewController: KVActionSheetDataSource {
     func actionSheetHeightOfContentView() -> CGFloat {
         return 200
     }
-    
 }
 
